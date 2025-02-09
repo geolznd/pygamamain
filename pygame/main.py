@@ -9,7 +9,7 @@ CORES = {
 }
 
 class Janela:
-    def __init__(self, resolucao=(1180, 620), titulo='CodeSnake', fps=30):
+    def __init__(self, resolucao=(1180, 620), titulo='CodeSnake', fps=20):
         pg.init()
         self.janela = pg.display.set_mode(resolucao)
         pg.display.set_caption(titulo)
